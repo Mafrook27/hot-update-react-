@@ -35,10 +35,11 @@ function App() {
   };
 
   useEffect(() => {
-    // Initial check
+    // Initial check - show toast instead of auto-reloading to avoid loops in local dev
     fetchRemoteVersion().then((remoteVersion) => {
       if (remoteVersion && remoteVersion !== appVersion) {
-        hardReloadPage();
+        setShowToast(true);
+        //hardReloadPage();
       }
     });
 
