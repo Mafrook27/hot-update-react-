@@ -30,6 +30,7 @@ export function Home() {
           <li>State management</li>
           <li>Version checking</li>
           <li>Auto-reload mechanism</li>
+          <li>Seamless Auto-Update 🔥</li>
         </ul>
       </div>
     </div>
