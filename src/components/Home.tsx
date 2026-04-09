@@ -6,7 +6,7 @@ export function Home() {
   return (
     <div className="home-content">
       <h2>Interactive Home Component</h2>
-      <p>This component represents your actual application content.</p>
+      <p>hiiiii .</p>
       
       <div className="stats-grid">
         <div className="stat-card">
