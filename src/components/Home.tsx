@@ -27,10 +27,7 @@ export function Home() {
         <h3>Current Features</h3>
         <ul>
           <li>Real-time rendering</li>
-          <li>State management</li>
-          <li>Version checking</li>
-          <li>Auto-reload mechanism</li>
-          <li>Seamless Auto-Update 🔥</li>
+    
         </ul>
       </div>
     </div>
